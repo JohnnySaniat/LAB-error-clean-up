@@ -1,4 +1,5 @@
 import '../styles/main.scss'; // You have to import your styles for them to work. Comment in this line
+import { students, voldysArmy } from '../utils/data/studentsVoldy';
 
 const houses = [
   {
@@ -22,9 +23,6 @@ const houses = [
       'https://static.wikia.nocookie.net/pottermore/images/4/4f/Ravenclaw_crest.png'
   }
 ];
-
-const students = [];
-const voldysArmy = []; // starts as an empty array
 
 const renderToDOM = (divId, content) => {
   const selectedDiv = document.querySelector(divId);
